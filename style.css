@@ -20,7 +20,7 @@
 
 #Ptaki {
     float:left;
-    margin-left:18.5%;
+    margin-left:12%;
     margin-right:1%;
     padding: 10px 10px 20px;
     width: 200px;
@@ -133,3 +133,27 @@ transform: translateY(4px);
         box-shadow: 0 3px #07660b;
         transform: translateY(4px);
         }
+
+     #Haslo {
+            float:left;
+            margin-right:1%;
+            padding: 10px 10px 20px;
+            width: 200px;
+            height: 10px;
+            font-size: 24px;
+            text-align: center;
+            cursor: pointer;
+            outline: none;
+            color: #fff;
+            background-color: #8a0b0bf1;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 6px rgba(175, 9, 9, 0.986);
+        }
+        #Haslo:hover 
+            {background-color: #cc5151}
+        #Haslo:active {
+                background-color: rgba(63, 180, 39, 0.986);
+                box-shadow: 0 3px #07660b;
+                transform: translateY(4px);
+                }
