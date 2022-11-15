@@ -1,0 +1,98 @@
+*{
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+header{
+    display: flex;
+    height: 350px;
+    width:100%;
+    background-color: #d6302aea; 
+    float: left;
+    text-align: center; 
+    justify-content: center;
+}
+
+h2{
+    font-size: 50px;
+    padding-top: 5%;
+    text-align: center; 
+    justify-content: center;
+}
+ul{ list-style: none;
+    padding: 25%;
+}
+main{
+    height: 800px;
+    width: 30%;
+    display: flex;
+    background-color: #00ffaaea; 
+    text-align: center; 
+    justify-content: center;
+    float: left;
+}
+section{
+    height: 800px;
+    width: 70%;
+    display: flex;
+    float: left;
+    text-align: center; 
+    justify-content: center;
+}
+#slimak{        background-color: white;
+        color: black;
+        display: block;
+        margin: 100px;
+        font-size: 30px;
+        padding: 5px;
+        text-shadow: 0px 0px 5px cyan;
+        text-align: center;
+        border: 5px outset;
+        border-radius: 10px;
+        border-color: rgba(255, 115, 0, 0.541);
+}
+
+#slimak:hover 
+    {background-color: #cc5151}
+#slimak:active {
+background-color: rgba(63, 180, 39, 0.986);
+box-shadow: 0 3px #07660b;
+transform: translateY(4px);
+}
+#zaba{        background-color: white;
+    color: black;
+    display: block;
+    margin: 100px;
+    font-size: 30px;
+    padding: 5px;
+    text-shadow: 0px 0px 5px cyan;
+    text-align: center;
+    border: 5px outset;
+    border-radius: 10px;
+    border-color: rgba(255, 115, 0, 0.541);
+}
+#zaba:hover 
+    {background-color: #cc5151}
+#zaba:active {
+background-color: rgba(63, 180, 39, 0.986);
+box-shadow: 0 3px #07660b;
+transform: translateY(4px);
+}
+#ryba{       background-color: white;
+    color: black;
+    display: block;
+    margin: 100px;
+    font-size: 30px;
+    padding: 5px;
+    text-shadow: 0px 0px 5px cyan;
+    text-align: center;
+    border: 5px outset;
+    border-radius: 10px;
+    border-color: rgba(255, 115, 0, 0.541);
+}
+#ryba:hover 
+    {background-color: #cc5151}
+#ryba:active {
+background-color: rgba(63, 180, 39, 0.986);
+box-shadow: 0 3px #07660b;
+transform: translateY(4px);
+}
