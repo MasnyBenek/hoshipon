@@ -32,7 +32,6 @@ header{
     margin: 45px;
     background-color: #3fcc7c;
     border-radius: 30px;
-    
 }
 #if{
     position: absolute;
@@ -64,7 +63,6 @@ main{
 img{
     width: 400px;
     height: 500px;
-
 }
 footer{
     margin: auto;
@@ -77,7 +75,7 @@ footer{
 }
 footer p{
     float: right;
-	margin-right: 10px;
+    margin-right: 10px;
 }
 iframe{
     border-width: 2px;
