@@ -1,5 +1,5 @@
 body{
-	margin: auto;
+    margin: auto;
     width: 100%;
     height: 100%;
 }
@@ -8,9 +8,9 @@ header{
     justify-content: center;
     width: 100%;
     height: 250px;
-	font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Fuzzy Bubbles', cursive;
     background-color: #D4FF33;
-	text-align: center;
+    text-align: center;
     margin: auto;
     font-size: 70px;
 }
@@ -23,7 +23,7 @@ header{
 }
 #bt{
     display: flex;
-	font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Fuzzy Bubbles', cursive;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -42,13 +42,13 @@ header{
     padding: 10px;
     background-color: white;
     visibility: hidden;
-	opacity: 0%;
-	transition: 0.2s;
+    opacity: 0%;
+    transition: 0.2s;
 }
 #bt:hover #if {
-	visibility: visible;
-	opacity: 100%;
-	transition: 0.2s;
+    visibility: visible;
+    opacity: 100%;
+    transition: 0.2s;
 }
 a{
     text-decoration: none;
@@ -67,14 +67,13 @@ img{
 
 }
 footer{
-	margin: auto;
+    margin: auto;
     width: 100%;
     height: 100px;
     background-color: #ff499b;
     text-align: right;
     font-size: 15px;
     clear: both;
-
 }
 footer p{
     float: right;
@@ -84,4 +83,3 @@ iframe{
     border-width: 2px;
     border-style: inset;
 }
-x
