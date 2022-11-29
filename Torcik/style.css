@@ -33,7 +33,7 @@ nav{
     background-color: rgb(237, 250, 150);
     text-align: center;
 }
-#button{
+#bt{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,7 +45,7 @@ nav{
     border-radius: 20px;
     
 }
-#okno{
+#if{
     position: absolute;
     top: 26vh;
     left: 10px; 
@@ -54,7 +54,7 @@ nav{
     background-color: white;
     visibility: hidden;
 }
-#button:hover #okno {
+#bt:hover #if {
 	visibility: visible;
 }
 a{
