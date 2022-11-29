@@ -21,7 +21,7 @@ header{
     height: 100px;
 }
 #bt{
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
