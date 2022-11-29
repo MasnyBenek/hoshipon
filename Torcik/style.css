@@ -13,25 +13,12 @@ header{
     margin: auto;
     font-size: 50px;
 }
-nav{
+#mm{
     background-color: rgb(220, 253, 128);
     display: flex;
     align-items: center;
     width: 100%;
     height: 100px;
-  footer{
-    width: 100%;
-    height: 100px;
-    background-color: rgb(255, 71, 141);
-    text-align: right;
-    font-size: 30px;
-    clear: both;
-}
-  main{
-    width: 100%;
-    height:550px;
-    background-color: rgb(237, 250, 150);
-    text-align: center;
 }
 #bt{
     display: flex;
@@ -53,6 +40,7 @@ nav{
     padding: 10px;
     background-color: white;
     visibility: hidden;
+   
 }
 #bt:hover #if {
 	visibility: visible;
@@ -62,9 +50,25 @@ a{
     color: white;
     font-weight: bold;
 }
+main{
+    width: 100%;
+    height:550px;
+    background-color: rgb(237, 250, 150);
+    text-align: center;
+}
 img{
     width: 400px;
     height: 500px;
+
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 71, 141);
+    text-align: right;
+    font-size: 30px;
+    clear: both;
+
 }
 footer p{
     float: right;
