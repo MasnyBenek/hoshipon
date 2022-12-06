@@ -24,7 +24,7 @@ nav{
 	margin: auto;
 	float: left;
 	width: 33%;
-	background-image: radial-gradient(ellipse at right bottom, #EEB1BF 5%, #d42dab 25%, #4d1d63 50%, #030243 100%);
+	background-color: blue;
         height:700px;
 }
 table{
@@ -50,14 +50,14 @@ main{
 	float: left;
     width: 34%;
     height:700px;
-    background-image: radial-gradient(ellipse at bottom, darkblue 5%, blue 25%, purple 50%, darkblue 100%);
+    background-color: darkblue;
     text-align: center;
 }
 aside{
 	float: left;
     width: 33%;
     height:700px;
-    background-image: radial-gradient(ellipse at bottom, orange 5%, red 25%, darkred 50%, orange 100%);
+    background-color: purple;
     text-align: center;
 }
 aside div{
