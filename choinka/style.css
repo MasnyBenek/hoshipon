@@ -1,0 +1,142 @@
+html{
+	background-color: #303030;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+header{
+	font-family:Fuzzy Bubbles;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    height: 150px;
+	background-image: linear-gradient(to right, green , cyan );
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+}
+header p{
+	color: orange;
+}
+nav{
+	margin: auto;
+	float: left;
+	width: 33%;
+    height:700px;
+}
+table{
+	position: relative;
+	width: 50%;
+	top: 30%;
+	text-align: left;
+	font-size: 30px;
+	margin: auto;
+	cursor: crosshair;
+	background-color: white;
+}
+th{
+	background-color: rgb(112,173,71);
+	padding-left: 10px;
+	color: white;
+}
+td{
+	background-color: rgb(213,227,207);
+	padding-left: 10px;
+}
+main{
+	float: left;
+    width: 34%;
+    height:700px;
+    background-color: #303030;
+    text-align: center;
+}
+aside{
+	float: left;
+    width: 33%;
+    height:700px;
+    background-color: #303030;
+    text-align: center;
+}
+aside div{
+	border: groove #8b0002 2px;
+	padding: 10px;
+	border-radius: 5px;
+	color: #8b0002;
+	cursor: help;
+	position: relative;
+	width: 55%;
+	top: 30%;
+	text-align: left;
+	font-size: 30px;
+	margin: auto;
+	background-color: white;
+}
+img{
+    width: 400px;
+    height: 500px;
+
+}
+main div{
+	top: 25%;
+}
+footer{
+	font-family:Fuzzy Bubbles;
+    width: 100%;
+    height: 100px;
+    background-color: #909090;
+    text-align: right;
+    font-size: 30px;
+    clear: both;
+
+}
+footer p{
+    float: right;
+	margin-right: 10px;
+}
+iframe{
+    border-width: 2px;
+    border-style: inset;
+}
+#por{
+	margin: auto;
+	justify-content: center;
+	display: flex;
+}
+#choinka{
+z-index: 1;
+position: absolute;
+}
+#bombki{
+z-index: 2;
+position: absolute;
+animation: xd 5s infinite;
+}
+#gwiazdka {
+z-index: 3;
+position: absolute;
+animation: xx 5s infinite;
+}
+#gwiazdka2 {
+z-index: 2;
+position: absolute;
+animation: xx 5s infinite;
+}
+#gwiazdka2 img{
+filter: blur(100px);
+}
+@keyframes xx
+{
+	0% {filter: brightness(80%);}
+	50% {filter: brightness(190%);}
+	100% {filter: brightness(80%);}
+}
+@keyframes xd
+{
+	0% {filter: hue-rotate(0deg);}
+	100% {filter: hue-rotate(360deg);}
+}
+#gwiazdka img {
+	cursor: pointer;
+}

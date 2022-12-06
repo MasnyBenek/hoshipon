@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+	 <script>
+		function grad(x)
+		{
+			if(x>=360)
+			{
+				x=0;
+			}
+			y = document.getElementById('rts');
+			y.style.backgroundImage = 'linear-gradient('+x+'deg, purple, darkblue)';
+			x+=1;
+			setTimeout(grad, 5, x);
+		}
+	
+		function grad2(x)
+		{
+			if(x>=360)
+			{
+				x=0;
+			}
+			y = document.getElementById('ddg');
+			y.style.backgroundImage = 'linear-gradient('+x+'deg, orange, darkred)';
+			x+=1;
+			setTimeout(grad2, 5, x);
+		}
+				function grad3(x)
+		{
+			if(x>=360)
+			{
+				x=0;
+			}
+			y = document.getElementById('ss');
+			y.style.backgroundImage = 'linear-gradient('+x+'deg, #000000, #404040)';
+			x+=1;
+			setTimeout(grad3, 5, x);
+		}
+		function grad4(x)
+		{
+			if(x>=360)
+			{
+				x=0;
+			}
+			y = document.getElementById('vv');
+			y.style.backgroundImage = 'linear-gradient('+x+'deg, Blue, Red)';
+			x+=1;
+			setTimeout(grad4, 5, x);
+		}
+				function grad5(x)
+		{
+			if(x>=360)
+			{
+				x=0;
+			}
+			y = document.getElementById('ter');
+			y.style.backgroundImage = 'linear-gradient('+x+'deg, hotpink, cyan)';
+			x+=1;
+			setTimeout(grad5, 5, x);
+		}
+		</script>
+</head>
+<body onload="grad(0), grad2(30), grad3(60), grad4(90), grad5(120)">
+    <header id="ddg">
+	<p>WESOŁYCH ŚWIĄT</p>
+    </header>
+    <nav id="rts">    
+	<table>
+	<tr><th>Choinka</th><th>Wysokość</th></tr>
+	<tr><td>świerk</td><td>170 cm</td></tr>
+	</table>
+    </nav>
+    <main id="ss">
+	<div id='por'>
+        <div id='choinka'>
+			<img src="choinka.png">
+        </div>
+		<div id='bombki'>
+			<img src="bombki.png">
+		</div>
+		<div id='gwiazdka'>
+			<img src="gwaizdka.png">
+		</div>
+		
+		<div id='gwiazdka2'>
+			<img src="gwaizdka.png">
+		</div>
+	</div>
+    </main>
+	<aside id="ter">
+	<div>
+	<b>Choinka</b> – ustrojone drzewko świerku lub jodły będące nieodłączną ozdobą w czasie świąt Bożego Narodzenia.
+	</div>
+	</aside>
+    <footer id="vv">
+        <p>E-mail:ozdoby@interia.pl</p>
+    </footer>
+</body>
+</html>
