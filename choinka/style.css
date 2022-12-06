@@ -24,7 +24,7 @@ nav{
 	margin: auto;
 	float: left;
 	width: 33%;
-	background-color: blue;
+	background-color: darkblue;
         height:700px;
 }
 table{
@@ -50,14 +50,14 @@ main{
 	float: left;
     width: 34%;
     height:700px;
-    background-color: darkblue;
+    background-color: #303030;
     text-align: center;
 }
 aside{
 	float: left;
     width: 33%;
     height:700px;
-    background-color: purple;
+    background-color: blue;
     text-align: center;
 }
 aside div{
