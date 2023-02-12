@@ -1,0 +1,73 @@
+header{
+    width: 600px;
+    height: 50px;
+    background-color: gray;
+    padding-top: 15px;
+}
+p{
+    width: 80%;
+    background-color: yellow;
+    color: hotpink;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin: auto;
+}
+main{
+    width: 600px;
+    height: 380px;
+    padding-top: 25px;
+    background-color: red;
+}
+#prawe{
+    background-color: pink;
+    color: white;
+    text-align: right;
+    height: 60px;
+    padding-top: 35px;
+    padding-right: 25px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#lewe{
+    background-color: pink;
+    color: white;
+    text-align: left;
+    height: 60px;
+    width: 470px;
+    padding-top: 45px;
+    padding-left: 35px;
+    margin-left: 30px;
+    margin-top: 90px;
+}
+footer{
+    background-color: lime;
+    width: 600px;
+    height: 200px;
+    padding-top: 25px;
+}
+.gora{
+    width: 80%;
+    color: gray;
+    font-style: italic;
+    background-color: orange;
+}
+.srodek{
+    text-align: left;
+    color: gray;
+    margin-top: 25px;
+    width: 60%;
+    margin-left: 10%;
+    padding-left: 10px;
+    font-style: italic;
+    background-color: orange;
+}
+.dol{
+    text-align: right;
+    color: lightgray;
+    margin-top: 25px;
+    margin-left: 10%;
+    width: 40%;
+    padding-right: 10px;
+    background-color: orange;
+}
