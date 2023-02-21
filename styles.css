@@ -1,0 +1,28 @@
+html, body{
+	background-image: radial-gradient(circle, #380fa8e0, #3e065fb9);
+}
+iframe{
+	min-height: 450px;
+	min-width: 600px;
+}
+
+#glowny{
+	margin-top: 2%;
+	height: 95vh;
+	text-align: center;
+	margin-bottom: 2%;
+	width: 100%;
+}
+a{
+	margin-left: 90%;
+	color: darkblue;
+	font-size: 25px;
+	text-decoration: none;
+    float:left;
+}
+*{
+	color: whitesmoke;
+	font-size: 40px;
+    font-family: "Rubik", sans-serif;
+    text-shadow: 2px 2px black;
+}
