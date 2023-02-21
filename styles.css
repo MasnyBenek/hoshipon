@@ -1,5 +1,8 @@
-html, body{
+html{
 	background-image: radial-gradient(circle, #380fa8e0, #3e065fb9);
+}
+body{
+	background-color: rgba(0, 0, 0, 0);
 }
 iframe{
 	min-height: 450px;
@@ -8,7 +11,7 @@ iframe{
 
 #glowny{
 	margin-top: 2%;
-	height: 95vh;
+	height: 105vh;
 	text-align: center;
 	margin-bottom: 2%;
 	width: 100%;
