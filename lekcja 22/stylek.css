@@ -1,0 +1,71 @@
+*{
+    background-color: #181a1b;
+}
+#as 
+{
+position: absolute;
+left: 41%;
+top: 400px; 
+z-index: 1;
+transform: rotate(-45deg);
+transition: 0.5s;
+}
+#krol
+{
+position: absolute;
+left: 45.5%;
+top: 375px; 
+z-index: 2;
+transform: rotate(-20deg);
+transition: 0.5s;
+}
+#dama 
+{
+position: absolute;
+left: 50%;
+top: 375px; 
+z-index: 3;
+transition: 0.5s;
+}
+#walet 
+{
+position: absolute;
+left: 55.5%;
+top: 385px; 
+z-index: 4;
+transform: rotate(20deg);
+transition: 0.5s;
+}
+#dz {
+position: absolute;
+left: 60%;
+top: 400px; 
+z-index: 5;
+transform: rotate(45deg);
+transition: 0.5s;
+}
+#as:hover{
+    transition: 0.5s;
+    z-index: 10;
+    transform: translatey( -200px) translatex( -100px);
+}
+#krol:hover{
+    transition: 0.5s;
+    z-index: 10;
+    transform: translatey( -200px) translatex( -50px);
+}
+#dama:hover{
+    transition: 0.5s;
+    z-index: 10;
+    transform: translatey( -200px); 
+}
+#walet:hover{
+    transition: 0.5s;
+    z-index: 10;
+    transform: translatey( -200px) translatex( 50px);
+}
+#dz:hover{
+    transition: 0.5s;
+    z-index: 10;
+    transform: translatey( -200px) translatex( 100px);
+}
