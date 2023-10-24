@@ -1,0 +1,77 @@
+/* Basic shit */
+body{
+background-color: rgb(63, 67, 71);
+}
+
+.wrapper{
+width: 500px;
+margin: auto;
+text-align: center;
+background-color: rgba(72, 115, 165, 0.8);
+justify-content: center;
+align-items: center;
+}
+
+button{
+color: red;
+background-color: rgba(66, 68, 71, 0.897);
+font-size: 25px;
+padding: 5px;
+}
+
+/* Kwiatek po przycisku */
+.kwiat{
+display: block;
+position: fixed;
+opacity: 0;
+}
+button:active ~ img.kwiat{
+display: block;
+opacity: 1;
+}
+button:active ~ img.sr{
+display: block;
+opacity: 0;
+}
+button{
+cursor: pointer;
+}
+
+/* Kwadraciki */
+#kw1{
+border: green 4px solid;
+}
+#kw2{
+background-color: blue;
+margin-bottom: 5%;;
+height: 90%;
+width: 95%;
+}
+#kw3{
+background-color: black;
+height: 75%;
+width: 75%;
+}
+#kw4{
+background-color: magenta;
+height: 65%;
+width: 65%;
+}
+#kw5{
+background-color: yellow;
+height: 50%;
+width: 50%;
+}
+#kw1{
+height: 250px;
+width: 250px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: auto;
+}
+#kw2, #kw3, #kw4, #kw5{
+display: flex;
+align-items: center;
+justify-content: center;
+}
