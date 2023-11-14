@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.pingwinek1{
+  position: fixed;
+  top: 390px;
+  left: 0px;
+}
+body{
+  display: inline-block;
+  width: 100vw;
+  height: 100vh;
+  color: red;
+}
+.pingwinek3, .pingwinek4, .pingwinek5{
+  display: inline-block;
+  position: relative;
+  left: 350px;
+}
