@@ -1,0 +1,50 @@
+body{
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.wrapper{
+  width: 80%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.wu{
+  height: 100%;
+  min-height: 1080px;
+  display: flex;
+}
+.jajo1{
+  left: -12%;
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: auto;
+}
+p{
+  position: absolute;
+  color: darkblue;
+  font-size: 50px;
+  text-align: center;
+  top: 70%;
+  font-family: fantasy;
+}
+b{
+  color: rgba(146, 123, 164, 0);
+  position: absolute;
+  opacity: 0;
+}
+b:hover{
+  font-size: 20px;
+  color: rgba(146, 123, 164, 1);
+  opacity: 1;
+}
+.jajo2{
+  left: 60%;
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: auto;
+}
